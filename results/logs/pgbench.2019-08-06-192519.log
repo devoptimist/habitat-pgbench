@@ -1,0 +1,113 @@
+Script started on 2019-08-06 19:25:19+00:00
+   [1;36m: [1;37mLoading /src/plan.sh[0m
+   [1;36mpgbench: [1;37mPlan loaded[0m
+   [1;36mpgbench: [1;37mValidating plan metadata[0m
+   [1;36mpgbench: [1;37mUsing HAB_BIN=/hab/pkgs/core/hab/0.81.0/20190507225645/bin/hab for installs, signing, and hashing[0m
+   [1;36mpgbench: [1;37mhab-plan-build setup[0m
+   [1;36mpgbench: [1;37mWriting pre_build file[0m
+   [1;36mpgbench: [1;37mResolving build dependencies[0m
+   [1;36mpgbench: [1;37mResolving run dependencies[0m
+[0m[0m[1m[33m» Installing core/postgresql-client[0m
+[0m[0m[1m[32m☁ Determining[0m latest version of core/postgresql-client in the 'stable' channel
+[0m[0m[1m[32m☛ Verifying[0m core/postgresql-client/9.6.11/20190305213520
+[0m[0m[1m[32m→ Using[0m core/acl/2.2.53/20190115012136
+[0m[0m[1m[32m→ Using[0m core/attr/2.4.48/20190115012129
+[0m[0m[1m[32m→ Using[0m core/bash/4.4.19/20190115012619
+[0m[0m[1m[32m→ Using[0m core/bzip2/1.0.6/20190115011950
+[0m[0m[1m[32m→ Using[0m core/cacerts/2018.12.05/20190115014206
+[0m[0m[1m[32m→ Using[0m core/coreutils/8.30/20190115012313
+[0m[0m[1m[32m☛ Verifying[0m core/db/5.3.28/20190115012845
+[0m[0m[1m[32m→ Using[0m core/gcc-libs/8.2.0/20190115011926
+[0m[0m[1m[32m☛ Verifying[0m core/gdal/2.2.1/20190115172005
+[0m[0m[1m[32m☛ Verifying[0m core/gdbm/1.17/20190115012826
+[0m[0m[1m[32m☛ Verifying[0m core/geos/3.7.1/20190205061756
+[0m[0m[1m[32m→ Using[0m core/glibc/2.27/20190115002733
+[0m[0m[1m[32m→ Using[0m core/gmp/6.1.2/20190115003943
+[0m[0m[1m[32m→ Using[0m core/less/530/20190115013008
+[0m[0m[1m[32m→ Using[0m core/libcap/2.25/20190115012150
+[0m[0m[1m[32m☛ Verifying[0m core/libossp-uuid/1.6.2/20190115171615
+[0m[0m[1m[32m☛ Verifying[0m core/libxml2/2.9.8/20190115154829
+[0m[0m[1m[32m→ Using[0m core/linux-headers/4.17.12/20190115002705
+[0m[0m[1m[32m→ Using[0m core/ncurses/6.1/20190115012027
+[0m[0m[1m[32m→ Using[0m core/openssl-fips/2.0.16/20190115014207
+[0m[0m[1m[32m→ Using[0m core/openssl/1.0.2r/20190305210149
+[0m[0m[1m[32m→ Using[0m core/pcre/8.42/20190115012526
+[0m[0m[1m[32m☛ Verifying[0m core/perl/5.28.0/20190115013014
+[0m[0m[1m[32m☛ Verifying[0m core/proj/4.9.3/20190115171931
+[0m[0m[1m[32m→ Using[0m core/readline/7.0.3/20190115012607
+[0m[0m[1m[32m→ Using[0m core/zlib/1.2.11/20190115003728
+[0m[0m[1m[32m✓ Installed[0m core/db/5.3.28/20190115012845
+[0m[0m[1m[32m✓ Installed[0m core/gdal/2.2.1/20190115172005
+[0m[0m[1m[32m✓ Installed[0m core/gdbm/1.17/20190115012826
+[0m[0m[1m[32m✓ Installed[0m core/geos/3.7.1/20190205061756
+[0m[0m[1m[32m✓ Installed[0m core/libossp-uuid/1.6.2/20190115171615
+[0m[0m[1m[32m✓ Installed[0m core/libxml2/2.9.8/20190115154829
+[0m[0m[1m[32m✓ Installed[0m core/perl/5.28.0/20190115013014
+[0m[0m[1m[32m✓ Installed[0m core/proj/4.9.3/20190115171931
+[0m[0m[1m[32m✓ Installed[0m core/postgresql-client/9.6.11/20190305213520
+[0m[0m[1m[35m★ Install of core/postgresql-client/9.6.11/20190305213520 complete with 9 new packages installed.[0m
+   [1;36mpgbench: [1;37mResolved dependency 'core/postgresql-client' to /hab/pkgs/core/postgresql-client/9.6.11/20190305213520[0m
+[0m[0m[1m[33m» Installing core/bash[0m
+[0m[0m[1m[32m☁ Determining[0m latest version of core/bash in the 'stable' channel
+[0m[0m[1m[32m→ Using[0m core/bash/4.4.19/20190115012619
+[0m[0m[1m[35m★ Install of core/bash/4.4.19/20190115012619 complete with 0 new packages installed.[0m
+   [1;36mpgbench: [1;37mResolved dependency 'core/bash' to /hab/pkgs/core/bash/4.4.19/20190115012619[0m
+   [1;36mpgbench: [1;37mSetting up environment[0m
+   [1;36mpgbench: [1;37mPopulating runtime environment from dependencies[0m
+   [1;36mpgbench: [1;37mPopulating buildtime environment from dependencies[0m
+   [1;36mpgbench: [1;37mLayering runtime environment on top of system environment[0m
+   [1;36mpgbench: [1;37mLayering buildtime environment on top of system environment[0m
+   [1;36mpgbench: [1;37mSetting PATH=/hab/pkgs/core/postgresql-client/9.6.11/20190305213520/bin:/hab/pkgs/core/bash/4.4.19/20190115012619/bin:/hab/pkgs/core/acl/2.2.53/20190115012136/bin:/hab/pkgs/core/attr/2.4.48/20190115012129/bin:/hab/pkgs/core/bzip2/1.0.6/20190115011950/bin:/hab/pkgs/core/coreutils/8.30/20190115012313/bin:/hab/pkgs/core/db/5.3.28/20190115012845/bin:/hab/pkgs/core/gdal/2.2.1/20190115172005/bin:/hab/pkgs/core/gdbm/1.17/20190115012826/bin:/hab/pkgs/core/geos/3.7.1/20190205061756/bin:/hab/pkgs/core/glibc/2.27/20190115002733/bin:/hab/pkgs/core/less/530/20190115013008/bin:/hab/pkgs/core/libcap/2.25/20190115012150/bin:/hab/pkgs/core/libossp-uuid/1.6.2/20190115171615/bin:/hab/pkgs/core/libxml2/2.9.8/20190115154829/bin:/hab/pkgs/core/ncurses/6.1/20190115012027/bin:/hab/pkgs/core/openssl-fips/2.0.16/20190115014207/bin:/hab/pkgs/core/openssl/1.0.2r/20190305210149/bin:/hab/pkgs/core/pcre/8.42/20190115012526/bin:/hab/pkgs/core/perl/5.28.0/20190115013014/bin:/hab/pkgs/core/proj/4.9.3/20190115171931/bin:/hab/pkgs/core/hab-plan-build/0.81.0/20190507232013/bin:/hab/pkgs/core/bash/4.4.19/20190115012619/bin:/hab/pkgs/core/binutils/2.31.1/20190115003743/bin:/hab/pkgs/core/bzip2/1.0.6/20190115011950/bin:/hab/pkgs/core/coreutils/8.30/20190115012313/bin:/hab/pkgs/core/file/5.34/20190115003731/bin:/hab/pkgs/core/findutils/4.6.0/20190115013303/bin:/hab/pkgs/core/gawk/4.2.1/20190115012752/bin:/hab/pkgs/core/grep/3.1/20190115012541/bin:/hab/pkgs/core/gzip/1.9/20190115013612/bin:/hab/pkgs/core/hab/0.81.0/20190507225645/bin:/hab/pkgs/core/rq/0.10.4/20190115014520/bin:/hab/pkgs/core/sed/4.5/20190115012152/bin:/hab/pkgs/core/tar/1.30/20190115012709/bin:/hab/pkgs/core/unzip/6.0/20190115014516/bin:/hab/pkgs/core/wget/1.19.5/20190305211748/bin:/hab/pkgs/core/xz/5.2.4/20190115013348/bin:/hab/pkgs/core/glibc/2.27/20190115002733/bin:/hab/pkgs/core/ncurses/6.1/20190115012027/bin:/hab/pkgs/core/acl/2.2.53/20190115012136/bin:/hab/pkgs/core/attr/2.4.48/20190115012129/bin:/hab/pkgs/core/libcap/2.25/20190115012150/bin:/hab/pkgs/core/pcre/8.42/20190115012526/bin:/hab/pkgs/core/less/530/20190115013008/bin:/hab/pkgs/core/openssl-fips/2.0.16/20190115014207/bin:/hab/pkgs/core/openssl/1.0.2r/20190305210149/bin[0m
+mkdir: created directory '/hab/cache/src'
+   [1;36mpgbench: [1;37mClean the cache[0m
+   [1;36mpgbench: [1;37mSetting build environment[0m
+mkdir: created directory '/hab/cache/src/pgbench-0.1.0'
+   [1;36mpgbench: [1;37mSetting PREFIX=/hab/pkgs/devoptimist/pgbench/0.1.0/20190806192519[0m
+   [1;36mpgbench: [1;37mSetting LD_RUN_PATH=/hab/pkgs/core/postgresql-client/9.6.11/20190305213520/lib[0m
+   [1;36mpgbench: [1;37mSetting CFLAGS=-I/hab/pkgs/core/postgresql-client/9.6.11/20190305213520/include[0m
+   [1;36mpgbench: [1;37mSetting CXXFLAGS=-I/hab/pkgs/core/postgresql-client/9.6.11/20190305213520/include[0m
+   [1;36mpgbench: [1;37mSetting CPPFLAGS=-I/hab/pkgs/core/postgresql-client/9.6.11/20190305213520/include[0m
+   [1;36mpgbench: [1;37mSetting LDFLAGS=-L/hab/pkgs/core/postgresql-client/9.6.11/20190305213520/lib[0m
+   [1;36mpgbench: [1;37mSetting PKG_CONFIG_PATH=/hab/pkgs/core/postgresql-client/9.6.11/20190305213520/lib/pkgconfig:/hab/pkgs/core/bash/4.4.19/20190115012619/lib/pkgconfig[0m
+   [1;36mpgbench: [1;37mPreparing to build[0m
+   [1;36mpgbench: [1;37mBuilding[0m
+   [1;36mpgbench: [1;37mInstalling[0m
+mkdir: created directory '/hab/pkgs/devoptimist'
+mkdir: created directory '/hab/pkgs/devoptimist/pgbench'
+mkdir: created directory '/hab/pkgs/devoptimist/pgbench/0.1.0'
+mkdir: created directory '/hab/pkgs/devoptimist/pgbench/0.1.0/20190806192519'
+   [1;36mpgbench: [1;37mWriting configuration[0m
+   [1;36mpgbench: [1;37mWriting service management scripts[0m
+   [1;36mpgbench: [1;37mUsing run hook /src/hooks/run[0m
+   [1;36mpgbench: [1;37mStripping unneeded symbols from binaries and libraries[0m
+   [1;36mpgbench: [1;37mBuilding package metadata[0m
+/hab/cache/src/pgbench-0.1.0 /src
+   [1;36mpgbench: [1;37mGenerating blake2b hashes of all files in the package[0m
+   [1;36mpgbench: [1;37mGenerating signed metadata FILES[0m
+[0m[0m[1m[33m» Signing pgbench_blake2bsums[0m
+[0m[0m[1m[36m☛ Signing[0m pgbench_blake2bsums with devoptimist-20181007160745 to create /hab/pkgs/devoptimist/pgbench/0.1.0/20190806192519/FILES
+[0m[0m[1m[35m★ Signed artifact /hab/pkgs/devoptimist/pgbench/0.1.0/20190806192519/FILES.[0m
+/src
+   [1;36mpgbench: [1;37mCreating manifest[0m
+   [1;36mpgbench: [1;37mGenerating package artifact[0m
+/hab/pkgs/core/tar/1.30/20190115012709/bin/tar: Removing leading `/' from member names
+/hab/cache/artifacts/.devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.tar (1/1)
+  100 %           2476 B / 30.0 KiB = 0.081                                    
+[0m[0m[1m[33m» Signing /hab/cache/artifacts/.devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.tar.xz[0m
+[0m[0m[1m[36m☛ Signing[0m /hab/cache/artifacts/.devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.tar.xz with devoptimist-20181007160745 to create /hab/cache/artifacts/devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.hart
+[0m[0m[1m[35m★ Signed artifact /hab/cache/artifacts/devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.hart.[0m
+'/hab/cache/artifacts/devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.hart' -> '/src/results/devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.hart'
+   [1;36mpgbench: [1;37mhab-plan-build cleanup[0m
+   [1;36mpgbench: [1;37m[0m
+   [1;36mpgbench: [1;37mSource Path: /src[0m
+   [1;36mpgbench: [1;37mInstalled Path: /hab/pkgs/devoptimist/pgbench/0.1.0/20190806192519[0m
+   [1;36mpgbench: [1;37mArtifact: /src/results/devoptimist-pgbench-0.1.0-20190806192519-x86_64-linux.hart[0m
+   [1;36mpgbench: [1;37mBuild Report: /src/results/last_build.env[0m
+   [1;36mpgbench: [1;37mSHA256 Checksum: 16ac86f0625facf35218f05b8e0c5d089f80f3d4bb7f05e5feed583f36e2f714[0m
+   [1;36mpgbench: [1;37mBlake2b Checksum: 35ed955d376031bb7b2a2dd0c81753ebab9c7176c1ebad8d84476204ab431074[0m
+   [1;36mpgbench: [1;37m[0m
+   [1;36mpgbench: [1;37mI love it when a plan.sh comes together.[0m
+   [1;36mpgbench: [1;37m[0m
+   [1;36mpgbench: [1;37mBuild time: 0m11s[0m
+
+Script done on 2019-08-06 19:25:30+00:00

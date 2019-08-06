@@ -1,0 +1,29 @@
+#!{{pkgPathFor "core/bash"}}/bin/bash
+
+export PGPASSWORD={{bind.backend.first.cfg.superuser_password}}
+
+
+while true; do
+  psql -h {{bind.loadbalancer.first.sys.ip}} \
+    -p {{bind.loadbalancer.first.cfg.port}} \
+    -U {{bind.backend.first.cfg.superuser_name}} \
+    -c "DROP DATABASE {{cfg.benchmark_database_name}}" -d {{cfg.initial_database_name}}
+
+  psql -h {{bind.loadbalancer.first.sys.ip}} \
+    -p {{bind.loadbalancer.first.cfg.port}} \
+    -U {{bind.backend.first.cfg.superuser_name}} \
+    -c "CREATE DATABASE {{cfg.benchmark_database_name}}" -d {{cfg.initial_database_name}}
+
+  pgbench -h {{bind.loadbalancer.first.sys.ip}} \
+    -p {{bind.loadbalancer.first.cfg.port}} \
+    -U {{bind.backend.first.cfg.superuser_name}} \
+    {{cfg.benchmark_database_name}} -i
+
+  pgbench -h {{bind.loadbalancer.first.sys.ip}} \
+    -p {{bind.loadbalancer.first.cfg.port}} \
+    -U {{bind.backend.first.cfg.superuser_name}} \
+    -c {{cfg.number_of_clients}} \
+    -j {{cfg.number_of_jobs}} \
+    -T {{cfg.benchmark_time}} \
+    {{cfg.benchmark_database_name}}
+done

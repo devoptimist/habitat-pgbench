@@ -1,0 +1,5 @@
+number_of_clients = 40
+number_of_jobs = 2
+benchmark_time = 1200
+benchmark_database_name = "bench1"
+initial_database_name = "postgres"
